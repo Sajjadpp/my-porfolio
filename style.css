@@ -522,6 +522,15 @@ hr{
     .body-4 .cards{
         margin-top: 30px;
     }
+    .body-4 .sub-tittle{
+        margin-left: 0;
+        text-align: center;
+    }
+    .st-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* //////////////====================contact================== */
 #contact{
