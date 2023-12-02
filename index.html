@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+        <div class="header-name">
+            <div class="round"><div class="round-1"></div>
+            <div class="round-2"></div></div>
+            <h4 class="name"><span>S</span>ajjad</h4>
+        </div>
+        <div class="header-menu">
+          <nav>
+            <ul>
+              <li><a href="#Home" >Home</a></li>
+              <li><a href="#about-me" >About</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#Service" >My Work</a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </header>
+    
+    <hr class="mt-0 mb-0">
+    <div class="body" id="Home">
+      <div class="section-1">
+        <div class="writing-side">
+          <p>Welcome to my website</p>
+          <hr>
+          <h2>Hello I`m Sajjad</h2>
+          <h6>Designer - Developer - Freelancer</h6>
+          <p>"Web design is not just about creating pretty layouts. It's <br> about understanding the marketing challenge behind your business".</p>
+          <div>
+            <i class="fa-brands i fa-facebook-f"></i>
+            <i class="fa-brands i fa-linkedin-in"></i>
+            <i class="fa-brands i fa-instagram"></i>
+            <i class="fa-brands i fa-whatsapp"></i>
+          </div>
+          <div class="buttons">
+            <a class="button-1" href="#about">Read More</a>
+            <a class="button-2" href="">Contact Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-2">
+        <div class="image-container">
+          <img src="sajad.jpg" alt="">
+        </div>
+      </div>
+      
+    </div>
+<!-- ========================================about==================== -->
+    <div class="body-2">
+      <div id="about-me">
+        <div class="container">
+
+          <div class="img-section">
+            <img src="boy typing.avif" alt="">
+          </div>
+
+          <div class="text-section">
+            <h2 class="sub-tittle">About Me</h2>
+            <p>Hello, I'm Sajjad P., a passionate and ambitious individual currently in the 12th standard. I have a keen interest in web development, and my journey has led me to become proficient in Node.js, Express.js, and MongoDB.</p>
+            <div class="tag-tittle">
+              <p class="tab-link active-link" onclick="changeTab('Skills')">Skills</p>
+              <p class="tab-link" onclick="changeTab('experience')">Experience</p>
+              <p class="tab-link" onclick="changeTab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab mt-3" id="Skills">
+              <ul>
+                <li><span>Node.js</span><br>allowing me to build scalable and efficient web applications.</li>
+                <li><span>ExpressJs</span><br> I've honed my skills in routing, middleware, and handling HTTP requests and responses.</li>
+                <li><span>MongoDB</span><br>I am experienced in working with MongoDB, a NoSQL database, to store and retrieve data in a schema-less format.</li>
+              </ul>
+            </div>
+            <div class="tab-contents mt-3" id="experience" >
+              <ul>
+                <li><span>eCommerce Website for a Restaurant</span><br> I successfully developed an eCommerce website tailored for a restaurant. This project involved creating a user-friendly interface for customers to browse the menu, place orders, and facilitate seamless transactions. I integrated secure payment gateways and ensured the platform's responsiveness for an optimal user experience.</li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents mt-3" id="Education">
+              <ul>
+                <li><span>completed-12th</span><br> Recently completed my 12th grade, where I merged academic studies with practical, hands-on experiences in web development.</li>
+              </ul>
+            </div>
+            
+          </div>
+          
+
+        </div>
+        
+      </div>
+    </div>
+    <!-- ++++++++++++++=====================services============+++++++++ -->
+    <div id="services" class="body-3">
+      <div class="container-1">
+        
+        <div class="service-list">
+          <h2 class="sub-tittle">Services</h2>
+          <div class="cards">
+            <div><i class="fa-solid fa-code mt-4"></i></div>
+            <h4 class="mt-4">Web Deign</h4>
+            <div>
+              <p>HTML/CSS: Writing the markup and stylesheets that define the structure and presentation of a website.</p>
+            </div>
+          </div>
+          <div class="cards">
+            <div><i class="fa-solid fa-server mt-4"></i></div>
+            <h4 class="mt-4">Web App</h4>
+            <div>
+              <p>A web app, short for web application, refers to a software application that runs in a web browser</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==============my-work===================== -->
+    <div id="my-work" class="body-4">
+      <div class="containerr">
+        <div ><h2 class="sub-tittle mb-3">My Work</h2></div>
+        <div class="work-list">
+          <div class="cards">
+            <div class="cardimg"></div>
+            <div class="in-card">
+              <h4>Social Media web</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <i>share</i>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cardimg"></div>
+            <div class="in-card">
+              <h4>Social Media web</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <i>share</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container-c">
+        <div class="left-side">
+          <div>
+            <h2 class="sub-tittle">Contact Me</h2>
+          <div class="d-flex"><i class="fa-brands fa-telegram mt-1 ii"></i><a class="mb-0">sajjadmuhammed227@gmail.com</a></div>
+          <div class="d-flex mt-4"><i class="fa-solid fa-phone mt-1 ii"></i><a class="mb-0">7034384914</a></div>
+          <div class="i-container">
+            <i class="fa-brands i fa-facebook-f"></i>
+            <i class="fa-brands i fa-linkedin-in"></i>
+            <i class="fa-brands i fa-instagram"></i>
+            <i class="fa-brands i fa-whatsapp"></i>
+          </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <form action="" name="submit-to-google-sheet" >
+            <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="massege" id=""   rows="9" placeholder="write something....."></textarea>
+          <input type="submit">
+          </form>
+          <span id="msg"></span>
+        </div>
+        
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script>
+  let tabLinks=document.getElementsByClassName('tab-link')
+  let tabContents=document.getElementsByClassName('tab-contents')
+  function changeTab(TabName){
+    for(tabLink of tabLinks){
+      console.log(tabLink)
+      tabLink.classList.remove('active-link')
+
+    }
+    for(tabContent of tabContents){
+      tabContent.classList.remove('active-tab')
+    }
+    event.currentTarget.classList.add('active-link')
+    document.getElementById(TabName).classList.add('active-tab')
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxdjC7SzTipl1aB4NF6epgiPyihHCXppAh8THsZsqnR67MiUXim54T-foZacYFiJ_Al/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById('msg')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML='massege send successfully!'
+        setTimeout(function(){
+          msg.innerHTML=''
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
